@@ -1,0 +1,15 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+	'EET89810.1'[&Description="ribosomal protein L13 [Candidatus Micrarchaeum acidiphilum ARMAN-2]",Created="Thu Nov 29 11:16:01 MST 2018"]
+	'RLE51263.1'[&Description="50S ribosomal protein L13 [Candidatus Verstraetearchaeota archaeon]",Created="Thu Nov 29 11:16:01 MST 2018"]
+	'RLI90700.1'[&Description="50S ribosomal protein L13 [Candidatus Altiarchaeales archaeon]",Created="Thu Nov 29 11:16:01 MST 2018"]
+	'OYT32557.1'[&Description="50S ribosomal protein L13 [Candidatus Woesearchaeota archaeon ex4484_78]",Created="Thu Nov 29 11:16:01 MST 2018"]
+	'RLI63461.1'[&Description="50S ribosomal protein L13 [Candidatus Lokiarchaeota archaeon]",Created="Thu Nov 29 11:16:01 MST 2018"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&U] (('EET89810.1'[&Description="ribosomal protein L13 [Candidatus Micrarchaeum acidiphilum ARMAN-2]",Created="Thu Nov 29 11:16:01 MST 2018"]:0.483770532558521,'RLE51263.1'[&Description="50S ribosomal protein L13 [Candidatus Verstraetearchaeota archaeon]",Created="Thu Nov 29 11:16:01 MST 2018"]:0.37029886140479296):0.04652732311093921,'RLI90700.1'[&Description="50S ribosomal protein L13 [Candidatus Altiarchaeales archaeon]",Created="Thu Nov 29 11:16:01 MST 2018"]:0.3849109820021873,('OYT32557.1'[&Description="50S ribosomal protein L13 [Candidatus Woesearchaeota archaeon ex4484_78]",Created="Thu Nov 29 11:16:01 MST 2018"]:0.4031889013551736,'RLI63461.1'[&Description="50S ribosomal protein L13 [Candidatus Lokiarchaeota archaeon]",Created="Thu Nov 29 11:16:01 MST 2018"]:0.46315958364381793):0.05600917097013536);
+end;
